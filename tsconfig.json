@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "declarationDir": "types",
+        "jsx": "react",
+        "lib": ["ES5", "ES2015", "ES2016", "DOM", "ESNext"],
+        "types": ["node", "jest"],
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es5",
+        "emitDeclarationOnly": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
